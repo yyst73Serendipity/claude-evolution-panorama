@@ -492,7 +492,7 @@ def build_html(data: dict) -> str:
     </section>
 
     <section class="section container" id="plans">
-      <div class="section-head"><div><span class="kicker">Plans & commercialization</span><h2>订阅计划：从个人容量，到组织代理平台</h2></div><p class="section-intro">以下为美国公开页面、截至 2026-10-15 的价格口径；实际价格、税费、可用模型和用量以账户地区与企业合同为准。</p></div>
+      <div class="section-head"><div><span class="kicker">Plans & commercialization</span><h2>订阅计划：从个人容量，到组织代理平台</h2></div><p class="section-intro">以下为美国公开页面、截至 __CUTOFF__ 的价格口径；实际价格、税费、可用模型和用量以账户地区与企业合同为准。</p></div>
       <div class="plan-grid">
         <article class="plan"><h3>Free</h3><div class="price-big">$0</div><p>Claude 基础入口，适合低频个人使用；用量、模型和高级功能受限。</p></article>
         <article class="plan plan--accent"><h3>Pro</h3><div class="price-big">$20/月</div><p>年付 $200（折合约 $17/月）。更高用量，覆盖主流个人生产力功能。</p></article>
@@ -567,7 +567,7 @@ def build_html(data: dict) -> str:
     <section class="section container" id="method">
       <div class="section-head"><div><span class="kicker">Method</span><h2>资料口径与阅读提醒</h2></div><p class="section-intro">本页优先使用 Anthropic、Claude、Claude Platform 和 Claude Help Center 官方页面。官方社交账号只作为发现线索，不用二手媒体替代原始发布。</p></div>
       <div class="notes">
-        <article class="panel"><h3>收录原则</h3><ul><li>收录会改变能力、产品形态、商业计划、开发方式或迁移要求的更新。</li><li>同日模型与产品变化在必要时拆成两条，便于按类别筛选。</li><li>相对前代差异来自官方发布内容的结构化归纳，不等同于完整技术评测。</li><li>截止日期严格为 <strong>2026-10-15</strong>；2026-10-16 及以后信息不在范围内。</li></ul></article>
+        <article class="panel"><h3>收录原则</h3><ul><li>收录会改变能力、产品形态、商业计划、开发方式或迁移要求的更新。</li><li>同日模型与产品变化在必要时拆成两条，便于按类别筛选。</li><li>相对前代差异来自官方发布内容的结构化归纳，不等同于完整技术评测。</li><li>时间线自动更新至 <strong>__CUTOFF__</strong>；该日期之后的信息不在当前快照范围内。</li></ul></article>
         <article class="panel"><h3>不确定性与价格</h3><ul><li>“Beta / Research Preview / GA”按发布当日状态记录，后续状态可在新事件中更新。</li><li>模型 ID 日期、官方新闻页日期偶有一天差异；本页以公开新闻页展示日期为主。</li><li>订阅和 API 价格以美国公开网页为快照，地区、合同、缓存、批处理和云平台价格可能不同。</li><li>退役日期需以 Anthropic 最新 deprecations 页面复核后再执行生产迁移。</li></ul></article>
       </div>
     </section>
@@ -580,7 +580,7 @@ def build_html(data: dict) -> str:
     </section>
   </main>
 
-  <footer><div class="container"><strong>Claude 演进全景</strong><br>整理截止 2026-10-15 · 以官方公开资料为主</div></footer>
+  <footer><div class="container"><strong>Claude 演进全景</strong><br>整理截止 __CUTOFF__ · 以官方公开资料为主</div></footer>
   <button class="back-top" id="back-top" type="button" aria-label="返回页面顶部">↑</button>
 
   <script id="timeline-data" type="application/json">__TIMELINE_DATA__</script>

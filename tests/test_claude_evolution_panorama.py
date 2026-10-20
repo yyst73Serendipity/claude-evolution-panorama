@@ -61,13 +61,13 @@ class ClaudeEvolutionPanoramaTest(unittest.TestCase):
         for event in self.data["events"]:
             with self.subTest(title=event["title"]):
                 self.assertLessEqual(date.fromisoformat(event["date"]), cutoff)
-        self.assertFalse(any(event["date"] >= "2026-10-16" for event in self.data["events"]))
+        self.assertEqual(max(event["date"] for event in self.data["events"]), self.data["cutoff"])
 
     def test_required_sections_and_cutoff_are_present(self) -> None:
         for section_id in ("overview", "phases", "timeline", "models", "products", "plans", "api", "migration", "insights", "method", "sources"):
             self.assertIn(f'id="{section_id}"', self.html)
-        self.assertIn("2026-10-15", self.html)
-        self.assertIn("2026-10-16 及以后信息不在范围内", self.html)
+        self.assertIn(self.data["cutoff"], self.html)
+        self.assertIn("该日期之后的信息不在当前快照范围内", self.html)
 
     def test_filter_controls_are_present(self) -> None:
         for control_id in ("query", "year-filter", "category-filter", "sort-order", "toggle-details", "reset-filters", "result-count"):
