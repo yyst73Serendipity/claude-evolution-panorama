@@ -212,19 +212,6 @@
     {
       "date": "2024-06-21",
       "precision": "day",
-      "category": "模型",
-      "title": "Claude 3.5 Sonnet：中档模型超越旧旗舰",
-      "summary": "3.5 Sonnet 在多项评测超过 Claude 3 Opus，同时保持 Sonnet 级价格并达到约 2 倍 Opus 速度；同步推出 Artifacts 预览。",
-      "delta": "能力不再严格随“模型档位”递增：新一代中档可以替代旧一代旗舰。",
-      "optimization": "编码、视觉、细腻写作、复杂指令与性价比。",
-      "availability": "Free、Pro、Team、API、Bedrock、Vertex AI。",
-      "significance": "确立 Sonnet 为 Claude 最具影响力的日常主力模型。注：API 模型 ID 含 20240620，但官网新闻页日期为 6 月 21 日。",
-      "sourceLabel": "Anthropic",
-      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
-    },
-    {
-      "date": "2024-06-21",
-      "precision": "day",
       "category": "Claude 应用",
       "title": "Artifacts 研究预览",
       "summary": "代码、文档和网页设计在对话旁的独立画布中实时呈现，可继续编辑与迭代。",
@@ -232,6 +219,19 @@
       "optimization": "创作反馈回路、可视化与协作式编辑。",
       "availability": "随 Claude 3.5 Sonnet 在 claude.ai 推出。",
       "significance": "Claude 从聊天机器人走向协作工作台。",
+      "sourceLabel": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    {
+      "date": "2024-06-21",
+      "precision": "day",
+      "category": "模型",
+      "title": "Claude 3.5 Sonnet：中档模型超越旧旗舰",
+      "summary": "3.5 Sonnet 在多项评测超过 Claude 3 Opus，同时保持 Sonnet 级价格并达到约 2 倍 Opus 速度；同步推出 Artifacts 预览。",
+      "delta": "能力不再严格随“模型档位”递增：新一代中档可以替代旧一代旗舰。",
+      "optimization": "编码、视觉、细腻写作、复杂指令与性价比。",
+      "availability": "Free、Pro、Team、API、Bedrock、Vertex AI。",
+      "significance": "确立 Sonnet 为 Claude 最具影响力的日常主力模型。注：API 模型 ID 含 20240620，但官网新闻页日期为 6 月 21 日。",
       "sourceLabel": "Anthropic",
       "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
     },
@@ -355,19 +355,6 @@
     {
       "date": "2024-10-22",
       "precision": "day",
-      "category": "模型",
-      "title": "升级版 Claude 3.5 Sonnet 与 Claude 3.5 Haiku",
-      "summary": "更新 3.5 Sonnet，强化编码与工具使用；推出速度接近 Haiku 3、能力显著提高的 3.5 Haiku。",
-      "delta": "Sonnet 继续在同名版本内迭代；小模型首次在多项能力上超过旧旗舰 Claude 3 Opus。",
-      "optimization": "编码、工具使用、代理任务与小模型性价比。",
-      "availability": "Claude 应用、API 与云平台按模型逐步提供。",
-      "significance": "再次验证“新一代小/中模型替代旧旗舰”的路线。",
-      "sourceLabel": "Anthropic",
-      "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
-    },
-    {
-      "date": "2024-10-22",
-      "precision": "day",
       "category": "智能体/编码",
       "title": "Computer Use 公测",
       "summary": "Claude 获得根据屏幕截图移动鼠标、点击和输入的计算机操作能力。",
@@ -375,6 +362,19 @@
       "optimization": "通用 GUI 自动化、桌面代理与端到端任务。",
       "availability": "API Beta；当时主要由升级版 3.5 Sonnet 驱动。",
       "significance": "Claude 的智能体路线从“调用函数”跨到“操作软件”。",
+      "sourceLabel": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "date": "2024-10-22",
+      "precision": "day",
+      "category": "模型",
+      "title": "升级版 Claude 3.5 Sonnet 与 Claude 3.5 Haiku",
+      "summary": "更新 3.5 Sonnet，强化编码与工具使用；推出速度接近 Haiku 3、能力显著提高的 3.5 Haiku。",
+      "delta": "Sonnet 继续在同名版本内迭代；小模型首次在多项能力上超过旧旗舰 Claude 3 Opus。",
+      "optimization": "编码、工具使用、代理任务与小模型性价比。",
+      "availability": "Claude 应用、API 与云平台按模型逐步提供。",
+      "significance": "再次验证“新一代小/中模型替代旧旗舰”的路线。",
       "sourceLabel": "Anthropic",
       "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
     },
@@ -576,19 +576,6 @@
     {
       "date": "2025-09-29",
       "precision": "day",
-      "category": "模型",
-      "title": "Claude Sonnet 4.5",
-      "summary": "强化长时自主编码、计算机使用、领域推理和对复杂指令的遵循，并成为 Claude Code 默认模型。",
-      "delta": "相对 Sonnet 4，在代理持续时间和真实软件工程上跨越式提高。",
-      "optimization": "30 小时级长任务、计算机使用、专业知识与安全。",
-      "availability": "Claude、Claude Code、API 与云平台。",
-      "significance": "Sonnet 再次成为默认生产主力。",
-      "sourceLabel": "Anthropic",
-      "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-4-5"
-    },
-    {
-      "date": "2025-09-29",
-      "precision": "day",
       "category": "智能体/编码",
       "title": "Claude Code 2.0 与原生 VS Code 扩展",
       "summary": "新版终端界面加入状态可见性、可搜索历史与 checkpoints；原生 VS Code 扩展提供侧栏和内联 diff。",
@@ -598,6 +585,19 @@
       "significance": "降低非终端用户采用门槛。",
       "sourceLabel": "Anthropic",
       "sourceUrl": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously"
+    },
+    {
+      "date": "2025-09-29",
+      "precision": "day",
+      "category": "模型",
+      "title": "Claude Sonnet 4.5",
+      "summary": "强化长时自主编码、计算机使用、领域推理和对复杂指令的遵循，并成为 Claude Code 默认模型。",
+      "delta": "相对 Sonnet 4，在代理持续时间和真实软件工程上跨越式提高。",
+      "optimization": "30 小时级长任务、计算机使用、专业知识与安全。",
+      "availability": "Claude、Claude Code、API 与云平台。",
+      "significance": "Sonnet 再次成为默认生产主力。",
+      "sourceLabel": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-4-5"
     },
     {
       "date": "2025-10-15",
