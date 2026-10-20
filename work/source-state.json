@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-20T17:25:24+08:00",
+  "lastChecked": "2026-10-20T17:31:28+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -567,6 +567,6 @@
     "https://platform.claude.com/docs/en/release-notes/overview": "8028d44cbd804e4104518d2f5b670ec662a5bcc52377c57c8da28cb63a82800c",
     "https://platform.claude.com/docs/en/about-claude/model-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73",
     "https://platform.claude.com/docs/en/about-claude/pricing": "06c90c6525749b791ecf53997a3c807adb3ed73673630600c36b0c1ae2284c1d",
-    "https://claude.com/pricing": "d45c948dade62f6e5e3de9013b36826ce706220b895994aebfa1ffea62f51899"
+    "https://claude.com/pricing": "b877821dfb015d837fa73a6bf33127da26191e34540eda765b6ba3048f1df417"
   }
 }
