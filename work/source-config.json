@@ -1,0 +1,52 @@
+{
+  "timezone": "Asia/Shanghai",
+  "userAgent": "ClaudeEvolutionPanoramaBot/1.0 (+https://github.com/yyst73Serendipity/claude-evolution-panorama)",
+  "discoverySources": [
+    {
+      "name": "Anthropic News",
+      "sitemap": "https://www.anthropic.com/sitemap.xml",
+      "allowedHosts": ["www.anthropic.com", "anthropic.com"],
+      "pathPrefixes": ["/news/"],
+      "requiredKeywords": ["claude", "model", "api", "mcp", "computer use", "cowork", "code", "constitution"]
+    },
+    {
+      "name": "Claude 官方资源",
+      "sitemap": "https://claude.com/sitemap.xml",
+      "allowedHosts": ["claude.com", "www.claude.com"],
+      "pathPrefixes": ["/resources/articles/"],
+      "requiredKeywords": ["claude", "model", "api", "mcp", "cowork", "code review", "computer use"]
+    }
+  ],
+  "monitoredPages": [
+    {
+      "name": "Claude 应用发布说明",
+      "label": "Claude Help Center",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "category": "Claude 应用"
+    },
+    {
+      "name": "Claude Platform 发布说明",
+      "label": "Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "category": "开发者/API"
+    },
+    {
+      "name": "模型弃用与退役时间表",
+      "label": "Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "category": "下线/迁移"
+    },
+    {
+      "name": "Claude API 定价",
+      "label": "Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "category": "开发者/API"
+    },
+    {
+      "name": "Claude 订阅计划与价格",
+      "label": "Claude 官方",
+      "url": "https://claude.com/pricing",
+      "category": "订阅计划"
+    }
+  ]
+}

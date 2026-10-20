@@ -1,0 +1,88 @@
+# 每天检查 Claude 官方来源，验证后发布纯静态单文件网页到 GitHub Pages。
+name: 更新并发布 Claude 演进全景
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: claude-panorama-pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-test:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.changes.outputs.changed }}
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 检查官方来源并更新数据
+        run: python3 work/update-claude-panorama.py
+
+      - name: 重建单文件网页
+        run: python3 work/build-page.py
+
+      - name: 运行完整测试
+        run: python3 -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: 检查本轮是否有版本变化
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 提交自动更新
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "claude-panorama-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add work/timeline-data.json work/source-state.json outputs/claude-evolution-panorama.html CHANGELOG.md
+          git commit -m "更新: 同步 Claude 官方发布"
+          git push
+
+      - name: 准备 Pages 静态目录
+        shell: bash
+        run: |
+          mkdir -p site
+          cp outputs/claude-evolution-panorama.html site/index.html
+          cp outputs/claude-evolution-panorama.html site/claude-evolution-panorama.html
+          touch site/.nojekyll
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传 Pages 构建物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy-pages:
+    needs: update-and-test
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
