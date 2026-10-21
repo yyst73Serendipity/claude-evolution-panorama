@@ -1,5 +1,9 @@
 # 更新日志
 
+## 2026-10-21 自动更新
+
+- **2026-10-21 · 开发者/API**：[Claude Platform 发布说明发生更新](https://platform.claude.com/docs/en/release-notes/overview)
+
 ## 2026-10-20 自动更新
 
 - **2026-10-20 · 订阅计划**：[Claude 订阅计划与价格发生更新](https://claude.com/pricing)
