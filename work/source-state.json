@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-21T11:49:58+08:00",
+  "lastChecked": "2026-10-22T11:49:55+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -65,6 +65,7 @@
     "https://claude.com/resources/articles/claude-code-plugins",
     "https://claude.com/resources/articles/claude-code-remote-mcp",
     "https://claude.com/resources/articles/claude-design-stays-on-brand-for-daily-work",
+    "https://claude.com/resources/articles/claude-duet",
     "https://claude.com/resources/articles/claude-enterprise-inference-hooks",
     "https://claude.com/resources/articles/claude-excel-powerpoint-updates",
     "https://claude.com/resources/articles/claude-for-chrome",
@@ -91,6 +92,7 @@
     "https://claude.com/resources/articles/claude-platform-compliance-api",
     "https://claude.com/resources/articles/claude-platform-on-aws",
     "https://claude.com/resources/articles/claude-powered-artifacts",
+    "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
     "https://claude.com/resources/articles/claude-security-public-beta",
     "https://claude.com/resources/articles/claude-tag-now-reads-even-more-of-the-room",
     "https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels",
@@ -137,6 +139,7 @@
     "https://claude.com/resources/articles/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
     "https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia",
     "https://claude.com/resources/articles/harnessing-claudes-intelligence",
+    "https://claude.com/resources/articles/hcltech-joins-claude-partner-network",
     "https://claude.com/resources/articles/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
     "https://claude.com/resources/articles/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
     "https://claude.com/resources/articles/how-ai-helps-break-cost-barrier-cobol-modernization",
@@ -351,6 +354,7 @@
     "https://www.anthropic.com/news/child-safety-principles",
     "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
     "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+    "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
     "https://www.anthropic.com/news/claude-2",
     "https://www.anthropic.com/news/claude-2-1",
     "https://www.anthropic.com/news/claude-2-on-amazon-bedrock",
@@ -577,10 +581,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "614608ef36a6bad0f802aa76ec29390c297a71daf2401642f82df30860a733ad",
-    "https://platform.claude.com/docs/en/release-notes/overview": "0d483ac384f2f57d2527b55c3f8c81ff0541860434bfbded589e5cfe57b3af78",
-    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "06c90c6525749b791ecf53997a3c807adb3ed73673630600c36b0c1ae2284c1d",
-    "https://claude.com/pricing": "3fc1c48839cff33fc81ebbbe9f822b443b3ab41797202edf18f6b27d0b5010cf"
+    "https://support.claude.com/en/articles/12138966-release-notes": "b6d573ec84692206c968560d142d7263a8712e544f94857d6b594b2110f78649",
+    "https://platform.claude.com/docs/en/release-notes/overview": "696800cb04160b86ee588e29d6a8c39f735e0d2e942a221ad5d34e6a30020a25",
+    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "1eaec68e7564d4f872e3d2849e6e9e29a9478a396908b5a0b08a16ac4e5bd0ca",
+    "https://platform.claude.com/docs/en/about-claude/pricing": "3a15d2a33e8efd0d8c7ebd0c9ac7cdccabe0c2ed2cae5b5aa0601bada75b1732",
+    "https://claude.com/pricing": "bdeb6edb929f1e790ae4b3495cc73063320657095c32ec2556e16043c633ba9b"
   }
 }

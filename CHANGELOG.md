@@ -1,5 +1,9 @@
 # 更新日志
 
+## 2026-10-22 自动更新
+
+- **2026-10-22 · 开发者/API**：[Claude API 定价发生更新](https://platform.claude.com/docs/en/about-claude/pricing)
+
 ## 2026-10-21 自动更新
 
 - **2026-10-21 · 开发者/API**：[Claude Platform 发布说明发生更新](https://platform.claude.com/docs/en/release-notes/overview)
