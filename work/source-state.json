@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-22T11:49:55+08:00",
+  "lastChecked": "2026-10-23T11:54:05+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -37,6 +37,7 @@
     "https://claude.com/resources/articles/build-plugins-for-claude",
     "https://claude.com/resources/articles/build-responsive-web-layouts",
     "https://claude.com/resources/articles/building-agents-that-reach-production-systems-with-mcp",
+    "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
     "https://claude.com/resources/articles/building-agents-with-skills-equipping-agents-for-specialized-work",
     "https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk",
     "https://claude.com/resources/articles/building-ai-agents-for-startups",
@@ -85,6 +86,7 @@
     "https://claude.com/resources/articles/claude-marketplace",
     "https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code",
     "https://claude.com/resources/articles/claude-models-explained-choosing-the-best-model-for-your-use-case",
+    "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
     "https://claude.com/resources/articles/claude-now-available-in-microsoft-365-copilot",
     "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
     "https://claude.com/resources/articles/claude-on-google-cloud-fedramp-high",
@@ -423,6 +425,7 @@
     "https://www.anthropic.com/news/disrupting-AI-espionage",
     "https://www.anthropic.com/news/distillation-defenses",
     "https://www.anthropic.com/news/donate-public-first-action",
+    "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
     "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
     "https://www.anthropic.com/news/donation-public-first-action",
     "https://www.anthropic.com/news/dxc-anthropic-alliance",
@@ -501,6 +504,7 @@
     "https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust",
     "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence",
     "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
+    "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
     "https://www.anthropic.com/news/opening-our-tokyo-office",
     "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
     "https://www.anthropic.com/news/our-framework-for-developing-safe-and-trustworthy-agents",
@@ -581,10 +585,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "b6d573ec84692206c968560d142d7263a8712e544f94857d6b594b2110f78649",
-    "https://platform.claude.com/docs/en/release-notes/overview": "696800cb04160b86ee588e29d6a8c39f735e0d2e942a221ad5d34e6a30020a25",
-    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "1eaec68e7564d4f872e3d2849e6e9e29a9478a396908b5a0b08a16ac4e5bd0ca",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "3a15d2a33e8efd0d8c7ebd0c9ac7cdccabe0c2ed2cae5b5aa0601bada75b1732",
-    "https://claude.com/pricing": "bdeb6edb929f1e790ae4b3495cc73063320657095c32ec2556e16043c633ba9b"
+    "https://support.claude.com/en/articles/12138966-release-notes": "0f9767922da8057475133f4fbfcbc10840185a6d450c5e39781be4ad04738422",
+    "https://platform.claude.com/docs/en/release-notes/overview": "1eb76675a3acfaad1c8ab177ce1478734b35d6f0be7b0d28a52c9a40e7b403c7",
+    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "95c9ff8ee7d7e5363c1f80412637ac67730b6d4f7e38e5c30ca479c13583dfc9",
+    "https://platform.claude.com/docs/en/about-claude/pricing": "5a1148e7dc7b7d16d45fa894f137df2c643271f8f13bbda5c2713f798d1adb87",
+    "https://claude.com/pricing": "717245532e0edded1fc85e54c61cad774c67f14fb94472e18939a1609dbf6113"
   }
 }
