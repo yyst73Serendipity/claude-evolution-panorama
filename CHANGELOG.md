@@ -1,5 +1,10 @@
 # 更新日志
 
+## 2026-10-27 自动更新
+
+- **2026-10-23 · 智能体/编码**：[Claude Cowork and chat come together for Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
+- **2026-10-26 · Claude 应用**：[Expanding Claude for Nonprofits](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
+
 ## 2026-10-22 自动更新
 
 - **2026-10-22 · 开发者/API**：[Claude API 定价发生更新](https://platform.claude.com/docs/en/about-claude/pricing)

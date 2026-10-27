@@ -4,10 +4,12 @@
 
 from __future__ import annotations
 
+import importlib.util
 import json
 import re
 import subprocess
 import sys
+import tempfile
 import unittest
 from datetime import date
 from html.parser import HTMLParser
@@ -17,6 +19,16 @@ ROOT = Path(__file__).resolve().parents[1]
 BUILD_SCRIPT = ROOT / "work" / "build-page.py"
 DATA_PATH = ROOT / "work" / "timeline-data.json"
 OUTPUT_PATH = ROOT / "outputs" / "claude-evolution-panorama.html"
+
+
+def load_builder():
+    """从 kebab-case 脚本路径加载页面构建模块。"""
+    spec = importlib.util.spec_from_file_location("claude_panorama_builder", BUILD_SCRIPT)
+    if spec is None or spec.loader is None:
+        raise RuntimeError("无法加载页面构建模块")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 class AssetParser(HTMLParser):
@@ -61,7 +73,36 @@ class ClaudeEvolutionPanoramaTest(unittest.TestCase):
         for event in self.data["events"]:
             with self.subTest(title=event["title"]):
                 self.assertLessEqual(date.fromisoformat(event["date"]), cutoff)
-        self.assertEqual(max(event["date"] for event in self.data["events"]), self.data["cutoff"])
+    def test_builder_allows_latest_event_before_cutoff(self) -> None:
+        builder = load_builder()
+        valid_data = json.loads(json.dumps(self.data))
+        valid_data["cutoff"] = "2026-10-28"
+        with tempfile.TemporaryDirectory() as directory:
+            data_path = Path(directory) / "timeline-data.json"
+            data_path.write_text(json.dumps(valid_data, ensure_ascii=False), encoding="utf-8")
+            original_data_path = builder.DATA_PATH
+            builder.DATA_PATH = data_path
+            try:
+                validated = builder.load_and_validate_data()
+            finally:
+                builder.DATA_PATH = original_data_path
+        latest_event_date = max(date.fromisoformat(event["date"]) for event in validated["events"])
+        self.assertLess(latest_event_date, date.fromisoformat(validated["cutoff"]))
+
+    def test_builder_rejects_event_after_cutoff(self) -> None:
+        builder = load_builder()
+        invalid_data = json.loads(json.dumps(self.data))
+        invalid_data["events"][-1]["date"] = "2026-10-28"
+        with tempfile.TemporaryDirectory() as directory:
+            data_path = Path(directory) / "timeline-data.json"
+            data_path.write_text(json.dumps(invalid_data, ensure_ascii=False), encoding="utf-8")
+            original_data_path = builder.DATA_PATH
+            builder.DATA_PATH = data_path
+            try:
+                with self.assertRaisesRegex(ValueError, "事件晚于截止日期"):
+                    builder.load_and_validate_data()
+            finally:
+                builder.DATA_PATH = original_data_path
 
     def test_required_sections_and_cutoff_are_present(self) -> None:
         for section_id in ("overview", "phases", "timeline", "models", "products", "plans", "api", "migration", "insights", "method", "sources"):

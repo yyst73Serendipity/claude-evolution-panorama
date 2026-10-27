@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-23T11:54:05+08:00",
+  "lastChecked": "2026-10-27T14:13:01+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -67,6 +67,7 @@
     "https://claude.com/resources/articles/claude-code-remote-mcp",
     "https://claude.com/resources/articles/claude-design-stays-on-brand-for-daily-work",
     "https://claude.com/resources/articles/claude-duet",
+    "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
     "https://claude.com/resources/articles/claude-enterprise-inference-hooks",
     "https://claude.com/resources/articles/claude-excel-powerpoint-updates",
     "https://claude.com/resources/articles/claude-for-chrome",
@@ -133,6 +134,7 @@
     "https://claude.com/resources/articles/eight-trends-defining-how-software-gets-built-in-2026",
     "https://claude.com/resources/articles/enterprise-managed-auth",
     "https://claude.com/resources/articles/evaluate-prompts",
+    "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
     "https://claude.com/resources/articles/extending-claude-capabilities-with-skills-mcp-servers",
     "https://claude.com/resources/articles/fine-tune-claude-3-haiku",
     "https://claude.com/resources/articles/fix-software-bugs-faster-with-claude",
@@ -246,6 +248,7 @@
     "https://claude.com/resources/articles/trainium2-and-distillation",
     "https://claude.com/resources/articles/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
     "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai",
+    "https://claude.com/resources/articles/unified-claude-enterprise",
     "https://claude.com/resources/articles/upgraded-anthropic-console",
     "https://claude.com/resources/articles/using-claude-code-session-management-and-1m-context",
     "https://claude.com/resources/articles/using-claude-md-files",
@@ -534,6 +537,7 @@
     "https://www.anthropic.com/news/research",
     "https://www.anthropic.com/news/responsible-scaling-policy-v3",
     "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
+    "https://www.anthropic.com/news/s1-sec",
     "https://www.anthropic.com/news/safeguards",
     "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
     "https://www.anthropic.com/news/salesforce-partnership",
@@ -585,10 +589,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "0f9767922da8057475133f4fbfcbc10840185a6d450c5e39781be4ad04738422",
-    "https://platform.claude.com/docs/en/release-notes/overview": "1eb76675a3acfaad1c8ab177ce1478734b35d6f0be7b0d28a52c9a40e7b403c7",
+    "https://support.claude.com/en/articles/12138966-release-notes": "e234365ccd78fc64c48ecf67b2e440ebe9a460282e0646057c214e06c0a9ef33",
+    "https://platform.claude.com/docs/en/release-notes/overview": "2c28a307d8f1e5a80c616bedc280ce5768d8906b07886625399071c478e89eb6",
     "https://platform.claude.com/docs/en/about-claude/model-deprecations": "95c9ff8ee7d7e5363c1f80412637ac67730b6d4f7e38e5c30ca479c13583dfc9",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "5a1148e7dc7b7d16d45fa894f137df2c643271f8f13bbda5c2713f798d1adb87",
-    "https://claude.com/pricing": "717245532e0edded1fc85e54c61cad774c67f14fb94472e18939a1609dbf6113"
+    "https://platform.claude.com/docs/en/about-claude/pricing": "079cf03c3d416b2c59f1e396c50ac10616b25b3fdd508cada51acaa5a64f8101",
+    "https://claude.com/pricing": "b357b87a1e7ece889aa42dfa273c6300fee44582fef8fb4b205a1f0df17e681a"
   }
 }

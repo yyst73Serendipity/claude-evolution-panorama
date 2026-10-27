@@ -1,0 +1,61 @@
+# 构建、验证并发布 Claude 演进全景到 GitHub Pages。
+name: 发布 Claude 演进全景
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: claude-panorama-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 检出主分支最新版本
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 重建单文件网页
+        run: python3 work/build-page.py
+
+      - name: 运行完整测试
+        run: python3 -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: 准备 Pages 静态目录
+        shell: bash
+        run: |
+          mkdir -p site
+          cp outputs/claude-evolution-panorama.html site/index.html
+          cp outputs/claude-evolution-panorama.html site/claude-evolution-panorama.html
+          touch site/.nojekyll
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传 Pages 构建物
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: 发布 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

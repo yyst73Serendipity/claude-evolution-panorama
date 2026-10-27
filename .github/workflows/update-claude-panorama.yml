@@ -1,25 +1,20 @@
-# 每天检查 Claude 官方来源，验证后发布纯静态单文件网页到 GitHub Pages。
-name: 更新并发布 Claude 演进全景
+# 每天检查 Claude 官方来源，安全更新仓库，并调用独立工作流发布页面。
+name: 更新 Claude 演进全景
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 concurrency:
-  group: claude-panorama-pages
+  group: claude-panorama-update
   cancel-in-progress: false
 
 jobs:
-  update-and-test:
+  update:
     runs-on: ubuntu-latest
-    outputs:
-      changed: ${{ steps.changes.outputs.changed }}
+    permissions:
+      contents: write
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
@@ -56,33 +51,22 @@ jobs:
         run: |
           git config user.name "claude-panorama-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add work/timeline-data.json work/source-state.json outputs/claude-evolution-panorama.html CHANGELOG.md
-          git commit -m "更新: 同步 Claude 官方发布"
-          git push
-
-      - name: 准备 Pages 静态目录
-        shell: bash
-        run: |
-          mkdir -p site
-          cp outputs/claude-evolution-panorama.html site/index.html
-          cp outputs/claude-evolution-panorama.html site/claude-evolution-panorama.html
-          touch site/.nojekyll
-
-      - name: 配置 GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: 上传 Pages 构建物
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
+          git add -- \
+            work/timeline-data.json \
+            work/source-state.json \
+            outputs/claude-evolution-panorama.html \
+            CHANGELOG.md
+          if git diff --cached --quiet; then
+            echo "没有需要提交的受控文件。"
+          else
+            git commit -m "更新: 同步 Claude 官方发布"
+            git push
+          fi
 
   deploy-pages:
-    needs: update-and-test
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: 发布 GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+    needs: update
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy-claude-pages.yml

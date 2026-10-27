@@ -17,16 +17,22 @@
 claude/
 ├── .github/
 │   └── workflows/
+│       ├── deploy-claude-pages.yml
 │       └── update-claude-panorama.yml
 ├── .gitignore
 ├── AGENTS.md
 ├── CHANGELOG.md
 ├── README.md
+├── docs/
+│   └── superpowers/
+│       └── plans/
+│           └── 2026-10-27-claude-update-repair.md
 ├── outputs/
 │   └── claude-evolution-panorama.html
 ├── tests/
 │   ├── test_auto_update.py
-│   └── test_claude_evolution_panorama.py
+│   ├── test_claude_evolution_panorama.py
+│   └── test_workflow_static.py
 └── work/
     ├── build-page.py
     ├── source-config.json
@@ -62,12 +68,12 @@ outputs/claude-evolution-panorama.html
 ## 🧪 测试方式
 
 ```bash
-python3 -m unittest tests/test_claude_evolution_panorama.py -v
+python3 -m unittest discover -s tests -p "test_*.py" -v
 ```
 
 测试覆盖：
 
-- 数据规模、事件类别和日期截止边界
+- 数据规模、事件类别、允许无同日发布的检查截止日，以及未来事件拒绝逻辑
 - 必要章节、模型、产品及价格快照
 - 搜索、筛选、排序、重置和展开控件
 - 官方 HTTPS 来源及新窗口安全属性
@@ -77,7 +83,7 @@ python3 -m unittest tests/test_claude_evolution_panorama.py -v
 ## 📚 数据来源与日期口径
 
 - 主要来源：Anthropic News / Research、Claude 官方资源、Claude Help Center、Claude Platform 文档。
-- 初始数据截止日期：**2026-10-15**；运行自动更新后，截止日期会推进到最新收录事件日期。
+- 初始数据截止日期：**2026-10-15**；自动更新收录到新增事件后，截止日期会推进到该次检查日，因此最新事件日期可以早于截止日期。
 - 晚于当前检查日期的事件不会纳入时间线。
 - 订阅价格按美国公开网页快照整理；地区、税费和企业合同可能不同。
 - API 表格展示标准输入/输出价格，不包含 Batch、Prompt Caching、Fast mode、区域端点或云平台差异。
@@ -85,16 +91,20 @@ python3 -m unittest tests/test_claude_evolution_panorama.py -v
 
 ## 🔄 全自动更新与发布
 
-仓库包含 GitHub Actions 工作流 `.github/workflows/update-claude-panorama.yml`：
+仓库使用两个职责分离的 GitHub Actions 工作流：
 
-1. 每天北京时间 08:00 自动检查 Anthropic News、Claude 官方资源、应用与 Platform 发布说明、模型弃用页面和价格页面。
+- `.github/workflows/update-claude-panorama.yml`：每天北京时间 08:00 或手动触发，检查官方来源、重建页面、运行完整测试，并只提交受控的数据、日志和 HTML 文件；更新任务仅拥有仓库内容写权限。
+- `.github/workflows/deploy-claude-pages.yml`：监听 `main` 分支推送、手动触发或由更新工作流调用，重新构建并验证页面后发布 GitHub Pages；发布任务只拥有读取仓库和部署 Pages 所需权限。
+
+自动更新遵循以下规则：
+
+1. 检查 Anthropic News、Claude 官方资源、应用与 Platform 发布说明、模型弃用页面和价格页面。
 2. 新文章仅在官方 HTTPS 域名、发布时间晚于现有数据且不晚于检查日时加入时间线。
 3. 自动生成的事件会显示“自动收录”，描述只使用官方页面标题和摘要，不猜测官方未明确说明的指标。
 4. 定价、发布说明和弃用页面通过稳定正文摘要监测变化；检测到变化时生成保守的页面更新记录。
-5. 自动重建单文件网页并运行完整测试；任何步骤失败都会阻止提交和发布。
-6. 测试通过后由 Actions 提交数据与网页，并发布到 GitHub Pages。
+5. 构建或测试失败会阻止自动提交和发布；人工推送到 `main` 也会触发独立 Pages 发布流程。
 
-也可在 GitHub 仓库的 **Actions → 更新并发布 Claude 演进全景 → Run workflow** 手动触发。
+也可在 GitHub 仓库的 **Actions → 更新 Claude 演进全景 → Run workflow** 手动检查来源，或在 **Actions → 发布 Claude 演进全景 → Run workflow** 仅重新发布页面。
 
 本地手动检查需要能够访问官方站点：
 
