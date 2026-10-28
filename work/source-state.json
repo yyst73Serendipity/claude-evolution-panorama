@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-27T14:13:01+08:00",
+  "lastChecked": "2026-10-28T12:42:44+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -182,6 +182,7 @@
     "https://claude.com/resources/articles/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
     "https://claude.com/resources/articles/how-to-configure-hooks",
     "https://claude.com/resources/articles/how-to-create-skills-key-steps-limitations-and-examples",
+    "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
     "https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects",
     "https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude",
     "https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering",
@@ -445,6 +446,7 @@
     "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
     "https://www.anthropic.com/news/expanding-global-operations-to-india",
     "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+    "https://www.anthropic.com/news/expanding-partnership-gsa",
     "https://www.anthropic.com/news/expanding-project-glasswing",
     "https://www.anthropic.com/news/expanding-support-for-scientists",
     "https://www.anthropic.com/news/fable-mythos-access",
@@ -590,9 +592,9 @@
   ],
   "pageHashes": {
     "https://support.claude.com/en/articles/12138966-release-notes": "e234365ccd78fc64c48ecf67b2e440ebe9a460282e0646057c214e06c0a9ef33",
-    "https://platform.claude.com/docs/en/release-notes/overview": "2c28a307d8f1e5a80c616bedc280ce5768d8906b07886625399071c478e89eb6",
-    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "95c9ff8ee7d7e5363c1f80412637ac67730b6d4f7e38e5c30ca479c13583dfc9",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "079cf03c3d416b2c59f1e396c50ac10616b25b3fdd508cada51acaa5a64f8101",
-    "https://claude.com/pricing": "b357b87a1e7ece889aa42dfa273c6300fee44582fef8fb4b205a1f0df17e681a"
+    "https://platform.claude.com/docs/en/release-notes/overview": "7eea9784f5f0528d5fe32475a63a509f768ab84b92c877c394fa584f2137753a",
+    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "150af0ae1cc504c82c235d7d7b587c9fa04457673864cf7c2ebf79db37a7943a",
+    "https://platform.claude.com/docs/en/about-claude/pricing": "f6d2c7f5a67819ed3f6a3430bcd956500c9470ae8233c7681875ae71e611837b",
+    "https://claude.com/pricing": "cc37bb85c6cacb6149cbe2863dcf52313132d8f56e6b7837028f0c549c08f52c"
   }
 }
