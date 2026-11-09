@@ -11,7 +11,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
-from datetime import date
+from datetime import date, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -76,7 +76,8 @@ class ClaudeEvolutionPanoramaTest(unittest.TestCase):
     def test_builder_allows_latest_event_before_cutoff(self) -> None:
         builder = load_builder()
         valid_data = json.loads(json.dumps(self.data))
-        valid_data["cutoff"] = "2026-10-28"
+        latest_event_date = max(date.fromisoformat(event["date"]) for event in valid_data["events"])
+        valid_data["cutoff"] = (latest_event_date + timedelta(days=1)).isoformat()
         with tempfile.TemporaryDirectory() as directory:
             data_path = Path(directory) / "timeline-data.json"
             data_path.write_text(json.dumps(valid_data, ensure_ascii=False), encoding="utf-8")
@@ -92,7 +93,9 @@ class ClaudeEvolutionPanoramaTest(unittest.TestCase):
     def test_builder_rejects_event_after_cutoff(self) -> None:
         builder = load_builder()
         invalid_data = json.loads(json.dumps(self.data))
-        invalid_data["events"][-1]["date"] = "2026-10-28"
+        current_latest = max(date.fromisoformat(event["date"]) for event in invalid_data["events"])
+        invalid_data["cutoff"] = current_latest.isoformat()
+        invalid_data["events"][-1]["date"] = (current_latest + timedelta(days=1)).isoformat()
         with tempfile.TemporaryDirectory() as directory:
             data_path = Path(directory) / "timeline-data.json"
             data_path.write_text(json.dumps(invalid_data, ensure_ascii=False), encoding="utf-8")
