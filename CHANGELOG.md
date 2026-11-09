@@ -1,5 +1,10 @@
 # 更新日志
 
+## 2026-11-09 自动更新
+
+- **2026-10-28 · Claude 应用**：[Introducing artifacts for legal work with Claude](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
+- **2026-11-05 · Claude 应用**：[Introducing Personal Finance in Claude](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
+
 ## 2026-10-27 自动更新
 
 - **2026-10-23 · 智能体/编码**：[Claude Cowork and chat come together for Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)

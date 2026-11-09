@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-28T12:42:44+08:00",
+  "lastChecked": "2026-11-09T16:28:54+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -69,6 +69,7 @@
     "https://claude.com/resources/articles/claude-duet",
     "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
     "https://claude.com/resources/articles/claude-enterprise-inference-hooks",
+    "https://claude.com/resources/articles/claude-enterprise-security-updates",
     "https://claude.com/resources/articles/claude-excel-powerpoint-updates",
     "https://claude.com/resources/articles/claude-for-chrome",
     "https://claude.com/resources/articles/claude-for-commerce-agents",
@@ -185,14 +186,17 @@
     "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
     "https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects",
     "https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude",
+    "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
     "https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering",
     "https://claude.com/resources/articles/improving-frontend-design-through-skills",
     "https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills",
     "https://claude.com/resources/articles/integrate-apis-seamlessly",
     "https://claude.com/resources/articles/integrations",
     "https://claude.com/resources/articles/interactive-tools-in-claude",
+    "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
     "https://claude.com/resources/articles/introducing-citations-api",
     "https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code",
+    "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
     "https://claude.com/resources/articles/introducing-routines-in-claude-code",
     "https://claude.com/resources/articles/introducing-the-claude-apps-gateway",
     "https://claude.com/resources/articles/introduction-to-agentic-coding",
@@ -204,8 +208,10 @@
     "https://claude.com/resources/articles/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
     "https://claude.com/resources/articles/memory",
     "https://claude.com/resources/articles/message-batches-api",
+    "https://claude.com/resources/articles/message-threads",
     "https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
     "https://claude.com/resources/articles/multi-agent-coordination-patterns",
+    "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
     "https://claude.com/resources/articles/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork",
     "https://claude.com/resources/articles/new-in-claude-managed-agents",
     "https://claude.com/resources/articles/observability-for-developers-building-connectors",
@@ -232,6 +238,7 @@
     "https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
     "https://claude.com/resources/articles/skills",
     "https://claude.com/resources/articles/skills-explained",
+    "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
     "https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more",
     "https://claude.com/resources/articles/structured-outputs-on-the-claude-developer-platform",
     "https://claude.com/resources/articles/subagents-in-claude-code",
@@ -297,6 +304,7 @@
     "https://www.anthropic.com/news/advancing-claude-for-education",
     "https://www.anthropic.com/news/advancing-claude-for-financial-services",
     "https://www.anthropic.com/news/agent-capabilities-api",
+    "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
     "https://www.anthropic.com/news/ai-for-science-program",
     "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
     "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
@@ -591,10 +599,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "e234365ccd78fc64c48ecf67b2e440ebe9a460282e0646057c214e06c0a9ef33",
-    "https://platform.claude.com/docs/en/release-notes/overview": "7eea9784f5f0528d5fe32475a63a509f768ab84b92c877c394fa584f2137753a",
-    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "150af0ae1cc504c82c235d7d7b587c9fa04457673864cf7c2ebf79db37a7943a",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "f6d2c7f5a67819ed3f6a3430bcd956500c9470ae8233c7681875ae71e611837b",
-    "https://claude.com/pricing": "cc37bb85c6cacb6149cbe2863dcf52313132d8f56e6b7837028f0c549c08f52c"
+    "https://support.claude.com/en/articles/12138966-release-notes": "1ff7e2085bc8a9235665f268f84ec4755640c40421ed7893a0de59ad9cdca845",
+    "https://platform.claude.com/docs/en/release-notes/overview": "046e35445177185571804827c13ce587c2cb255bc449e3b76f169a7aba50875c",
+    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "a8254b517afc5d372e4a369ae054e09a8db98896998c22627496818304885ff7",
+    "https://platform.claude.com/docs/en/about-claude/pricing": "8352855978113ff31a1dc50a0f7d691344ae8ac5aaa80b393d0c593ce90f9c85",
+    "https://claude.com/pricing": "ae737e82524b5d68b3a95ce99aa355fb2e117b8e6eabc2289a9caa3c2f949eb8"
   }
 }
