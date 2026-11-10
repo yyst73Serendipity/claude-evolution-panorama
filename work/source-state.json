@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-09T16:28:54+08:00",
+  "lastChecked": "2026-11-10T14:30:43+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -200,6 +200,7 @@
     "https://claude.com/resources/articles/introducing-routines-in-claude-code",
     "https://claude.com/resources/articles/introducing-the-claude-apps-gateway",
     "https://claude.com/resources/articles/introduction-to-agentic-coding",
+    "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
     "https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding",
     "https://claude.com/resources/articles/making-claude-a-better-electrical-engineer",
     "https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions",
@@ -599,10 +600,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "1ff7e2085bc8a9235665f268f84ec4755640c40421ed7893a0de59ad9cdca845",
-    "https://platform.claude.com/docs/en/release-notes/overview": "046e35445177185571804827c13ce587c2cb255bc449e3b76f169a7aba50875c",
-    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "a8254b517afc5d372e4a369ae054e09a8db98896998c22627496818304885ff7",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "8352855978113ff31a1dc50a0f7d691344ae8ac5aaa80b393d0c593ce90f9c85",
-    "https://claude.com/pricing": "ae737e82524b5d68b3a95ce99aa355fb2e117b8e6eabc2289a9caa3c2f949eb8"
+    "https://support.claude.com/en/articles/12138966-release-notes": "31f3a9e29e06c48d87074a8b32c1930bc54985b6f46a64556c63857cf1770cf8",
+    "https://platform.claude.com/docs/en/release-notes/overview": "1153ff8dce48b33ed752391584b1db9cf723d8cd126ee17209d9381702d2e666",
+    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "97c8e3c8e56679fb9498e71307be9f1d8223275de80c5752577b50e10ec90fa3",
+    "https://platform.claude.com/docs/en/about-claude/pricing": "a3b2d3add452bbd742556495146a07d8fdb9157021672a9a9455adf554771be6",
+    "https://claude.com/pricing": "0b02f85aee5307d445c2fab3869cf14b2bb9f6b5719b19455c7d24b74f5bce55"
   }
 }
