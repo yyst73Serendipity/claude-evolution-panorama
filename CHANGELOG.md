@@ -1,5 +1,10 @@
 # 更新日志
 
+## 2026-11-11 自动更新
+
+- **2026-11-10 · 订阅计划**：[Claude Whiteboards, Claude Sheets, and Claude Data](https://claude.com/resources/articles/sheets-whiteboards-data)
+- **2026-11-10 · Claude 应用**：[Working with Claude Sheets, Whiteboards, and Interactive Connectors](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
+
 ## 2026-11-09 自动更新
 
 - **2026-10-28 · Claude 应用**：[Introducing artifacts for legal work with Claude](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)

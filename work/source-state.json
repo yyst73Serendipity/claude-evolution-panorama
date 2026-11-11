@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-10T14:30:43+08:00",
+  "lastChecked": "2026-11-11T13:17:25+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -170,6 +170,7 @@
     "https://claude.com/resources/articles/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
     "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases",
     "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+    "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
     "https://claude.com/resources/articles/how-datadog-built-a-universal-machine-tool-for-claude-code",
     "https://claude.com/resources/articles/how-enterprises-are-building-ai-agents-in-2026",
     "https://claude.com/resources/articles/how-healthcare-organizations-use-claude-tag",
@@ -192,6 +193,7 @@
     "https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills",
     "https://claude.com/resources/articles/integrate-apis-seamlessly",
     "https://claude.com/resources/articles/integrations",
+    "https://claude.com/resources/articles/interactive-connectors-full-tool",
     "https://claude.com/resources/articles/interactive-tools-in-claude",
     "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
     "https://claude.com/resources/articles/introducing-citations-api",
@@ -211,6 +213,7 @@
     "https://claude.com/resources/articles/message-batches-api",
     "https://claude.com/resources/articles/message-threads",
     "https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
+    "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
     "https://claude.com/resources/articles/multi-agent-coordination-patterns",
     "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
     "https://claude.com/resources/articles/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork",
@@ -237,6 +240,7 @@
     "https://claude.com/resources/articles/scaling-agentic-coding",
     "https://claude.com/resources/articles/self-serve-enterprise",
     "https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+    "https://claude.com/resources/articles/sheets-whiteboards-data",
     "https://claude.com/resources/articles/skills",
     "https://claude.com/resources/articles/skills-explained",
     "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
@@ -547,6 +551,7 @@
     "https://www.anthropic.com/news/releasing-claude-instant-1-2",
     "https://www.anthropic.com/news/research",
     "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+    "https://www.anthropic.com/news/roadshow-launch",
     "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
     "https://www.anthropic.com/news/s1-sec",
     "https://www.anthropic.com/news/safeguards",
@@ -601,9 +606,9 @@
   ],
   "pageHashes": {
     "https://support.claude.com/en/articles/12138966-release-notes": "31f3a9e29e06c48d87074a8b32c1930bc54985b6f46a64556c63857cf1770cf8",
-    "https://platform.claude.com/docs/en/release-notes/overview": "1153ff8dce48b33ed752391584b1db9cf723d8cd126ee17209d9381702d2e666",
+    "https://platform.claude.com/docs/en/release-notes/overview": "da0c33b4165105469821a89f1d0869087b3cf1092c7f5ffc7b2029fd74c46010",
     "https://platform.claude.com/docs/en/about-claude/model-deprecations": "97c8e3c8e56679fb9498e71307be9f1d8223275de80c5752577b50e10ec90fa3",
     "https://platform.claude.com/docs/en/about-claude/pricing": "a3b2d3add452bbd742556495146a07d8fdb9157021672a9a9455adf554771be6",
-    "https://claude.com/pricing": "0b02f85aee5307d445c2fab3869cf14b2bb9f6b5719b19455c7d24b74f5bce55"
+    "https://claude.com/pricing": "3db0b0f8814b19f61cfb25ff951eb3ad72996d2f092ab2bf5e67d84acb5286a6"
   }
 }
