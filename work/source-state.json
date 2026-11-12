@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-11T13:17:25+08:00",
+  "lastChecked": "2026-11-12T14:21:28+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -605,10 +605,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "31f3a9e29e06c48d87074a8b32c1930bc54985b6f46a64556c63857cf1770cf8",
-    "https://platform.claude.com/docs/en/release-notes/overview": "da0c33b4165105469821a89f1d0869087b3cf1092c7f5ffc7b2029fd74c46010",
-    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "97c8e3c8e56679fb9498e71307be9f1d8223275de80c5752577b50e10ec90fa3",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "a3b2d3add452bbd742556495146a07d8fdb9157021672a9a9455adf554771be6",
+    "https://support.claude.com/en/articles/12138966-release-notes": "36fdc521ba032d328c9726dff0074538046fd5fa5c51f70faacb5c03c9a393bb",
+    "https://platform.claude.com/docs/en/release-notes/overview": "f5eed3a207c7cbaf06768ab15b64d0d3c0bed2d9636633b8052c49b3c9f11fa8",
+    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "0f945727d8ea1e5fa8c8d1c780970fd9f092312cbc5118900ea86a4890ee5b00",
+    "https://platform.claude.com/docs/en/about-claude/pricing": "0a985abaf6d3c1a7a860e528853cbf18792db17b7cacf4d165a6eb200f418378",
     "https://claude.com/pricing": "3db0b0f8814b19f61cfb25ff951eb3ad72996d2f092ab2bf5e67d84acb5286a6"
   }
 }
