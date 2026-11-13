@@ -1,5 +1,10 @@
 # 更新日志
 
+## 2026-11-13 自动更新
+
+- **2026-11-12 · Claude 应用**：[Introducing Claude Meetings, now in beta](https://claude.com/resources/articles/claude-meetings)
+- **2026-11-12 · 智能体/编码**：[Operate Claude Managed Agents inside your security perimeter](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
+
 ## 2026-11-11 自动更新
 
 - **2026-11-10 · 订阅计划**：[Claude Whiteboards, Claude Sheets, and Claude Data](https://claude.com/resources/articles/sheets-whiteboards-data)

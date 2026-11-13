@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-12T14:21:28+08:00",
+  "lastChecked": "2026-11-13T13:41:51+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -77,6 +77,7 @@
     "https://claude.com/resources/articles/claude-for-financial-advisors",
     "https://claude.com/resources/articles/claude-for-foundation-models",
     "https://claude.com/resources/articles/claude-for-government-is-now-generally-available",
+    "https://claude.com/resources/articles/claude-for-manufacturing",
     "https://claude.com/resources/articles/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
     "https://claude.com/resources/articles/claude-for-teachers-now-available-for-schools-and-districts",
     "https://claude.com/resources/articles/claude-for-the-legal-industry",
@@ -86,6 +87,7 @@
     "https://claude.com/resources/articles/claude-managed-agents-memory",
     "https://claude.com/resources/articles/claude-managed-agents-updates",
     "https://claude.com/resources/articles/claude-marketplace",
+    "https://claude.com/resources/articles/claude-meetings",
     "https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code",
     "https://claude.com/resources/articles/claude-models-explained-choosing-the-best-model-for-your-use-case",
     "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
@@ -98,6 +100,7 @@
     "https://claude.com/resources/articles/claude-powered-artifacts",
     "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
     "https://claude.com/resources/articles/claude-security-public-beta",
+    "https://claude.com/resources/articles/claude-tag-guide-for-startups",
     "https://claude.com/resources/articles/claude-tag-now-reads-even-more-of-the-room",
     "https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels",
     "https://claude.com/resources/articles/claude-team-updates",
@@ -202,6 +205,7 @@
     "https://claude.com/resources/articles/introducing-routines-in-claude-code",
     "https://claude.com/resources/articles/introducing-the-claude-apps-gateway",
     "https://claude.com/resources/articles/introduction-to-agentic-coding",
+    "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
     "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
     "https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding",
     "https://claude.com/resources/articles/making-claude-a-better-electrical-engineer",
@@ -238,6 +242,7 @@
     "https://claude.com/resources/articles/running-an-ai-native-engineering-org",
     "https://claude.com/resources/articles/salesforce-in-claude",
     "https://claude.com/resources/articles/scaling-agentic-coding",
+    "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
     "https://claude.com/resources/articles/self-serve-enterprise",
     "https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
     "https://claude.com/resources/articles/sheets-whiteboards-data",
@@ -265,6 +270,7 @@
     "https://claude.com/resources/articles/upgraded-anthropic-console",
     "https://claude.com/resources/articles/using-claude-code-session-management-and-1m-context",
     "https://claude.com/resources/articles/using-claude-md-files",
+    "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
     "https://claude.com/resources/articles/using-llms-to-secure-source-code",
     "https://claude.com/resources/articles/web-search",
     "https://claude.com/resources/articles/web-search-api",
@@ -605,10 +611,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "36fdc521ba032d328c9726dff0074538046fd5fa5c51f70faacb5c03c9a393bb",
-    "https://platform.claude.com/docs/en/release-notes/overview": "f5eed3a207c7cbaf06768ab15b64d0d3c0bed2d9636633b8052c49b3c9f11fa8",
+    "https://support.claude.com/en/articles/12138966-release-notes": "1af4fa5de2dd85a12f60a8a5061fb89992462dc41cfebb17cd542868d93f21a8",
+    "https://platform.claude.com/docs/en/release-notes/overview": "822f078e72e1e61d118a3019bec5f3eefbd7be073fcae0196494274adb3b635b",
     "https://platform.claude.com/docs/en/about-claude/model-deprecations": "0f945727d8ea1e5fa8c8d1c780970fd9f092312cbc5118900ea86a4890ee5b00",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "0a985abaf6d3c1a7a860e528853cbf18792db17b7cacf4d165a6eb200f418378",
-    "https://claude.com/pricing": "3db0b0f8814b19f61cfb25ff951eb3ad72996d2f092ab2bf5e67d84acb5286a6"
+    "https://platform.claude.com/docs/en/about-claude/pricing": "110d476a88a87fba4855a2837fc8be2b31a5395c0cdc98a8950d9b551e3fbe97",
+    "https://claude.com/pricing": "91fc98fc79976cb916e7fef7f660ce2c979f0bfedce65e893710ce186d5d62f8"
   }
 }
