@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-13T13:41:51+08:00",
+  "lastChecked": "2026-11-14T13:31:20+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -44,6 +44,7 @@
     "https://claude.com/resources/articles/building-ai-agents-for-the-enterprise",
     "https://claude.com/resources/articles/building-ai-agents-in-financial-services",
     "https://claude.com/resources/articles/building-ai-agents-in-healthcare-and-life-sciences",
+    "https://claude.com/resources/articles/building-always-on-agents",
     "https://claude.com/resources/articles/building-an-ai-native-revenue-organization",
     "https://claude.com/resources/articles/building-companies-with-claude-code",
     "https://claude.com/resources/articles/building-effective-human-agent-teams",
@@ -611,10 +612,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "1af4fa5de2dd85a12f60a8a5061fb89992462dc41cfebb17cd542868d93f21a8",
-    "https://platform.claude.com/docs/en/release-notes/overview": "822f078e72e1e61d118a3019bec5f3eefbd7be073fcae0196494274adb3b635b",
-    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "0f945727d8ea1e5fa8c8d1c780970fd9f092312cbc5118900ea86a4890ee5b00",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "110d476a88a87fba4855a2837fc8be2b31a5395c0cdc98a8950d9b551e3fbe97",
+    "https://support.claude.com/en/articles/12138966-release-notes": "9c04ca1cd30e2cb622d34243f338ddc8552c1eb53ea51ac81ee2d4f0406d61e1",
+    "https://platform.claude.com/docs/en/release-notes/overview": "ea8d94ad5c27bb478274e9e4e4fe128955dc6047d5e5ea5e0bd879e87633f7c9",
+    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "c29e54209442a933f13c958e708d858ed527083e92502d2af32eec01c7d45d10",
+    "https://platform.claude.com/docs/en/about-claude/pricing": "0d37e0746cb69193a1ce487a8930062efea316389e10b905f681a5ab3d4d5a3c",
     "https://claude.com/pricing": "91fc98fc79976cb916e7fef7f660ce2c979f0bfedce65e893710ce186d5d62f8"
   }
 }
