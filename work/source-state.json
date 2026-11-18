@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-17T15:06:21+08:00",
+  "lastChecked": "2026-11-18T14:30:53+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -209,6 +209,7 @@
     "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
     "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
     "https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding",
+    "https://claude.com/resources/articles/linked-billing-on-claude-platform",
     "https://claude.com/resources/articles/making-claude-a-better-electrical-engineer",
     "https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions",
     "https://claude.com/resources/articles/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
@@ -612,10 +613,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "250e9651f627deea9f826c43048cc601ddccd42556cdead76cd1c7be15f48b4c",
-    "https://platform.claude.com/docs/en/release-notes/overview": "cf41b4c244dc72a2c5f5574bb48756da850b206010051052cdb26089bcbf7a43",
+    "https://support.claude.com/en/articles/12138966-release-notes": "0bd5716871d476794c84744471b516693e2b3c4cf2cb281e51297b71e5c649e9",
+    "https://platform.claude.com/docs/en/release-notes/overview": "85321dfc94926bc19f3744164f5a77150103c3619a8f9d7e027b3a5afde4b41d",
     "https://platform.claude.com/docs/en/about-claude/model-deprecations": "3da148eb357b4b73eb4896f61549c37d966a9643e0b98a0011f2a091e0dce1f5",
     "https://platform.claude.com/docs/en/about-claude/pricing": "05127cbc4ea46f5a8306d71bc6736bca278802e7b91f7fb8fe877ce568f3d4f6",
-    "https://claude.com/pricing": "c26613dcc5a3c0572f7bafaac7b985c5265edfdf0417c9d43a02997b5720ca19"
+    "https://claude.com/pricing": "22f58d936fbb58558a5c67d03af001dea440211f3605e67ea872cfb7fad831fa"
   }
 }

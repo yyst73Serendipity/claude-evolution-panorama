@@ -1,5 +1,9 @@
 # 更新日志
 
+## 2026-11-18 自动更新
+
+- **2026-11-17 · 开发者/API**：[Linked billing on the Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
+
 ## 2026-11-13 自动更新
 
 - **2026-11-12 · Claude 应用**：[Introducing Claude Meetings, now in beta](https://claude.com/resources/articles/claude-meetings)
