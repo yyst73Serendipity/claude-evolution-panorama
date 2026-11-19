@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-18T14:30:53+08:00",
+  "lastChecked": "2026-11-19T14:32:41+08:00",
   "knownUrls": [
     "https://claude.com/pricing",
     "https://claude.com/resources/articles/1m-context",
@@ -353,6 +353,7 @@
     "https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund",
     "https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic",
     "https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam",
+    "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
     "https://www.anthropic.com/news/anthropic-public-record",
     "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
     "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
@@ -613,10 +614,10 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment"
   ],
   "pageHashes": {
-    "https://support.claude.com/en/articles/12138966-release-notes": "0bd5716871d476794c84744471b516693e2b3c4cf2cb281e51297b71e5c649e9",
-    "https://platform.claude.com/docs/en/release-notes/overview": "85321dfc94926bc19f3744164f5a77150103c3619a8f9d7e027b3a5afde4b41d",
-    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "3da148eb357b4b73eb4896f61549c37d966a9643e0b98a0011f2a091e0dce1f5",
-    "https://platform.claude.com/docs/en/about-claude/pricing": "05127cbc4ea46f5a8306d71bc6736bca278802e7b91f7fb8fe877ce568f3d4f6",
+    "https://support.claude.com/en/articles/12138966-release-notes": "7e57676ee6b6acf2ed31eafb5faaabc2d246d816b6166bfff3e506d7475f6646",
+    "https://platform.claude.com/docs/en/release-notes/overview": "cca065526d94173f55350aee575b64a59a9cdbd263dd5f232a25f11d29c80dca",
+    "https://platform.claude.com/docs/en/about-claude/model-deprecations": "93b28421b7230ead93898b4558ba57240be56be4705c044091933cf0e393c211",
+    "https://platform.claude.com/docs/en/about-claude/pricing": "65fc2d127bfdec7a9aaf058a0318461c5bd7b18b0de274f93519e12d48ee2b66",
     "https://claude.com/pricing": "22f58d936fbb58558a5c67d03af001dea440211f3605e67ea872cfb7fad831fa"
   }
 }
